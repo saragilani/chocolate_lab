@@ -22,6 +22,13 @@ public class DataLoader implements ApplicationRunner {
     @Override
     public void run(ApplicationArguments args) throws Exception {
 
+    Estate estate1 = new Estate("Mondelez", "Spain");
+    Estate estate2 = new Estate("Cadbury", "England");
+    Estate estate3 = new Estate("Hersheys", "United States");
+
+    estateRepository.save(estate1);
+    estateRepository.save(estate2);
+    estateRepository.save(estate3);
 
 
     }
