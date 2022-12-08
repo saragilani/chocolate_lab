@@ -14,11 +14,11 @@ public class ChocolateServices {
     @Autowired
     ChocolateRepository chocolateRepository;
 
-    @Autowired
-    EstateService estateService;
-
-    @Autowired
-    EstateRepository estateRepository;
+//    @Autowired
+//    EstateService estateService;
+//
+//    @Autowired
+//    EstateRepository estateRepository;
 
     public List<Chocolate> getAllChocolates(){
         return chocolateRepository.findAll();

@@ -21,6 +21,8 @@ public class DataLoader implements ApplicationRunner {
     @Autowired
     EstateRepository estateRepository;
 
+
+
     @Override
     public void run(ApplicationArguments args) throws Exception {
 

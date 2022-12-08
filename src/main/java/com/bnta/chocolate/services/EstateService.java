@@ -14,6 +14,11 @@ public class EstateService {
     @Autowired
     EstateRepository estateRepository;
 
+    @Autowired
+    ChocolateServices chocolateServices;
+
+
+
     public List<Estate> getAllEstates(){
         return estateRepository.findAll();
     }
